@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+  <title>The Liu Lab</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo"><a href="./index.html">The Liu Lab</a></div>
+    <nav class="main-nav">
+      <a href="./team.html">Team</a>
+      <a href="./publications.html">Publications</a>
+      <a href="#">Lab News</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay">
+      <h1>Aging & Brain Cancer Dynamics</h1>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Welcome to the Liu Lab</h2>
+      <p>We are a young enthusiastic team of interdisciplinary scientists and clinicians pursuing a deeper understanding of the processes that underlie brain tumor evolution, resistance, and how these are influenced by their age-dependent environment.</p>
+      <p>Our lab is located at Campus Mitte in the Department of Neurology at Charité - Universitätsmedizin Berlin, Germany.</p>
+    </section>
+
+
+    <section class="about">
+      <h2>Mission and values</h2>
+      <p>The ultimate goal of our research is to find better therapies and improve the lives of patients suffering from brain cancer. </p>
+      <p>We believe that this can only be achieved through cross-disciplinary collaboration and team science. </p>
+      <p>We therefore hold ourselves responsible to each pursue <b>scientific excellence</b> with <b>utmost integrity and rigor</b>, <b>collaborate openly</b> within the team and with other groups, stay <b>curious and willing to learn</b>, and embrace a culture of mutual <b>respect and generosity</b> where every person regardless of their backgrounds and beliefs can thrive within the team and as an individual.  </p>
+      <p>Please reach out if you are interested in joining us on this quest!</p>
+      <button class="contact-btn">Contact Us</button>
+    </section>
+
+
+    <section class="about">
+      <h2>Funding</h2>
+      <p>We are grateful to receive support from the Max-Eder program of the Deutsche Krebshilfe, as well as from:</p>
+      <img src="styles/pics/funding.jpg"/>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 The Liu Lab</p>
+  </footer>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".contact-btn").addEventListener("click", function () {
+      window.location.href = "mailto:ilon.liu@charite.de";
+    });
+  });
+</script>
+</body>
+</html>
